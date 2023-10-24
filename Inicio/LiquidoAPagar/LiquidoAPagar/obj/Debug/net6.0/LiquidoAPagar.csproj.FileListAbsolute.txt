@@ -1,0 +1,14 @@
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\bin\Debug\net6.0\LiquidoAPagar.exe
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\bin\Debug\net6.0\LiquidoAPagar.deps.json
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\bin\Debug\net6.0\LiquidoAPagar.runtimeconfig.json
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\bin\Debug\net6.0\LiquidoAPagar.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\bin\Debug\net6.0\LiquidoAPagar.pdb
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\obj\Debug\net6.0\LiquidoAPagar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\obj\Debug\net6.0\LiquidoAPagar.AssemblyInfoInputs.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\obj\Debug\net6.0\LiquidoAPagar.AssemblyInfo.cs
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\obj\Debug\net6.0\LiquidoAPagar.csproj.CoreCompileInputs.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\obj\Debug\net6.0\LiquidoAPagar.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\obj\Debug\net6.0\refint\LiquidoAPagar.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\obj\Debug\net6.0\LiquidoAPagar.pdb
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\obj\Debug\net6.0\LiquidoAPagar.genruntimeconfig.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\LiquidoAPagar\LiquidoAPagar\obj\Debug\net6.0\ref\LiquidoAPagar.dll
