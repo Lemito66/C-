@@ -1,0 +1,14 @@
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\bin\Debug\net6.0\demoBasicCode.exe
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\bin\Debug\net6.0\demoBasicCode.deps.json
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\bin\Debug\net6.0\demoBasicCode.runtimeconfig.json
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\bin\Debug\net6.0\demoBasicCode.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\bin\Debug\net6.0\demoBasicCode.pdb
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\obj\Debug\net6.0\demoBasicCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\obj\Debug\net6.0\demoBasicCode.AssemblyInfoInputs.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\obj\Debug\net6.0\demoBasicCode.AssemblyInfo.cs
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\obj\Debug\net6.0\demoBasicCode.csproj.CoreCompileInputs.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\obj\Debug\net6.0\demoBasicCode.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\obj\Debug\net6.0\refint\demoBasicCode.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\obj\Debug\net6.0\demoBasicCode.pdb
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\obj\Debug\net6.0\demoBasicCode.genruntimeconfig.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\demoBasicCode\demoBasicCode\obj\Debug\net6.0\ref\demoBasicCode.dll
