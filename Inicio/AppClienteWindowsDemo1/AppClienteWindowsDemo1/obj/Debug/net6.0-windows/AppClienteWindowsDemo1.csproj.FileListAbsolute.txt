@@ -1,0 +1,17 @@
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\bin\Debug\net6.0-windows\AppClienteWindowsDemo1.exe
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\bin\Debug\net6.0-windows\AppClienteWindowsDemo1.deps.json
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\bin\Debug\net6.0-windows\AppClienteWindowsDemo1.runtimeconfig.json
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\bin\Debug\net6.0-windows\AppClienteWindowsDemo1.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\bin\Debug\net6.0-windows\AppClienteWindowsDemo1.pdb
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.Form1.resources
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.csproj.GenerateResource.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.AssemblyInfoInputs.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.AssemblyInfo.cs
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.csproj.CoreCompileInputs.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\refint\AppClienteWindowsDemo1.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.pdb
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.genruntimeconfig.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\ref\AppClienteWindowsDemo1.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\AppClienteWindowsDemo1\AppClienteWindowsDemo1\obj\Debug\net6.0-windows\AppClienteWindowsDemo1.Employeers.resources
