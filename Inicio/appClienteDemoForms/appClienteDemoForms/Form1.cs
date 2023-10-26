@@ -4,7 +4,7 @@ namespace appClienteDemoForms
 {
     public partial class Form1 : Form
     {
-        // Collections
+        // List Collections
         ArrayList listProducts = new ArrayList();
         public Form1()
         {
@@ -27,8 +27,10 @@ namespace appClienteDemoForms
         {
             foreach (Products item in listProducts)
             {
-                MessageBox.Show("Se agrego el producto: " + item.Name + " a la lista");
+                //MessageBox.Show("Se agrego el producto: " + item.Name + " a la lista");
+                lstProducts.Items.Add(item.Name + " " + "Precio: " + item.Price);
             }
+
         }
     }
 }
