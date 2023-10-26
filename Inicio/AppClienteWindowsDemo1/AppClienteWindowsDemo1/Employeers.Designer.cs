@@ -46,6 +46,7 @@
             txtCode.Name = "txtCode";
             txtCode.Size = new Size(220, 23);
             txtCode.TabIndex = 0;
+            txtCode.TextChanged += txtCode_TextChanged;
             // 
             // label1
             // 

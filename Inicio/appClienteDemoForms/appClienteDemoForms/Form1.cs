@@ -32,5 +32,13 @@ namespace appClienteDemoForms
             }
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Products product1 = new Products(1, "Coca Cola", 1.5, 100);
+            Products.generalExists = 1; // Las estaticas no dependen de las instancias, depende de las clase
+
+            MessageBox.Show("Existencia general: " + Products.generalExists);
+        }
     }
 }

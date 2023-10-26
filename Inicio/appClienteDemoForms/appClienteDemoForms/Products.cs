@@ -8,6 +8,8 @@ namespace appClienteDemoForms
 {
     internal class Products
     {
+        public static int generalExists;
+
         public Products (int id, string name, double price, int stocks)
         {
             // Este es el constructor, siempre debe tener el mismo nombre de la clase

@@ -12,7 +12,7 @@ namespace AppClienteWindowsDemo1
 {
     public partial class Employeers : Form
     {
-         public MiCodigoReusable.Employeer myEmployeer = new MiCodigoReusable.Employeer();
+        public MiCodigoReusable.Employeer myEmployeer = new MiCodigoReusable.Employeer();
 
         public Employeers()
         {
@@ -41,6 +41,11 @@ namespace AppClienteWindowsDemo1
             myEmployeer.name = txtName.Text;
             myEmployeer.department = txtDepartment.Text;
             this.Close();
+        }
+
+        private void txtCode_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
