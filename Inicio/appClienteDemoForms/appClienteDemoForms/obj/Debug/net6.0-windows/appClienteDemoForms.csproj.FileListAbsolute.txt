@@ -1,0 +1,16 @@
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\bin\Debug\net6.0-windows\appClienteDemoForms.exe
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\bin\Debug\net6.0-windows\appClienteDemoForms.deps.json
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\bin\Debug\net6.0-windows\appClienteDemoForms.runtimeconfig.json
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\bin\Debug\net6.0-windows\appClienteDemoForms.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\bin\Debug\net6.0-windows\appClienteDemoForms.pdb
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\appClienteDemoForms.Form1.resources
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\appClienteDemoForms.csproj.GenerateResource.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\appClienteDemoForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\appClienteDemoForms.AssemblyInfoInputs.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\appClienteDemoForms.AssemblyInfo.cs
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\appClienteDemoForms.csproj.CoreCompileInputs.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\appClienteDemoForms.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\refint\appClienteDemoForms.dll
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\appClienteDemoForms.pdb
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\appClienteDemoForms.genruntimeconfig.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\appClienteDemoForms\appClienteDemoForms\obj\Debug\net6.0-windows\ref\appClienteDemoForms.dll
