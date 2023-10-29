@@ -7,3 +7,13 @@ C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.csproj
 C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.csproj.CoreCompileInputs.cache
 C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.exe
 C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.pdb
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\bin\Debug\RepasoForms.exe.config
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\bin\Debug\RepasoForms.exe
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\bin\Debug\RepasoForms.pdb
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\obj\Debug\RepasoForms.csproj.AssemblyReference.cache
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\obj\Debug\RepasoForms.Form1.resources
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\obj\Debug\RepasoForms.Properties.Resources.resources
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\obj\Debug\RepasoForms.csproj.GenerateResource.cache
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\obj\Debug\RepasoForms.csproj.CoreCompileInputs.cache
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\obj\Debug\RepasoForms.exe
+C:\Users\lemit\OneDrive\Documents\Github\C-\Inicio\RepasoForms\RepasoForms\obj\Debug\RepasoForms.pdb
