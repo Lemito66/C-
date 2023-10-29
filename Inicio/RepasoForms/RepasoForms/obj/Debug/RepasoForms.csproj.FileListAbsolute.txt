@@ -1,0 +1,9 @@
+C:\Users\lemit\source\repos\RepasoForms\RepasoForms\bin\Debug\RepasoForms.exe.config
+C:\Users\lemit\source\repos\RepasoForms\RepasoForms\bin\Debug\RepasoForms.exe
+C:\Users\lemit\source\repos\RepasoForms\RepasoForms\bin\Debug\RepasoForms.pdb
+C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.csproj.AssemblyReference.cache
+C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.Properties.Resources.resources
+C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.csproj.GenerateResource.cache
+C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.csproj.CoreCompileInputs.cache
+C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.exe
+C:\Users\lemit\source\repos\RepasoForms\RepasoForms\obj\Debug\RepasoForms.pdb
