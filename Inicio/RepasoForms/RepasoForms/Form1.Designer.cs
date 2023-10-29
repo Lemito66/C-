@@ -36,6 +36,7 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtAge = new System.Windows.Forms.TextBox();
             this.txtSalary = new System.Windows.Forms.TextBox();
+            this.saveEmployeer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -106,11 +107,22 @@
             this.txtSalary.Size = new System.Drawing.Size(100, 20);
             this.txtSalary.TabIndex = 7;
             // 
+            // saveEmployeer
+            // 
+            this.saveEmployeer.Location = new System.Drawing.Point(384, 226);
+            this.saveEmployeer.Name = "saveEmployeer";
+            this.saveEmployeer.Size = new System.Drawing.Size(132, 23);
+            this.saveEmployeer.TabIndex = 8;
+            this.saveEmployeer.Text = "Abrir otro formulario";
+            this.saveEmployeer.UseVisualStyleBackColor = true;
+            this.saveEmployeer.Click += new System.EventHandler(this.saveEmployeer_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.saveEmployeer);
             this.Controls.Add(this.txtSalary);
             this.Controls.Add(this.txtAge);
             this.Controls.Add(this.txtName);
@@ -137,6 +149,7 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.TextBox txtSalary;
+        private System.Windows.Forms.Button saveEmployeer;
     }
 }
 

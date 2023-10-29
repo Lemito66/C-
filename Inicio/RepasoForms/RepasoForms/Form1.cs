@@ -75,5 +75,12 @@ namespace RepasoForms
                 }
             }
         }
+
+        private void saveEmployeer_Click(object sender, EventArgs e)
+        {
+            SaveEmployeer saveEmployeer = new SaveEmployeer();
+            saveEmployeer.Show();
+
+        }
     }
 }
