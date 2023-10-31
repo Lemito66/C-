@@ -1,0 +1,10 @@
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\bin\Debug\DemoGeneric.exe.config
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\bin\Debug\DemoGeneric.exe
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\bin\Debug\DemoGeneric.pdb
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\obj\Debug\DemoGeneric.csproj.AssemblyReference.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\obj\Debug\DemoGeneric.Form1.resources
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\obj\Debug\DemoGeneric.Properties.Resources.resources
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\obj\Debug\DemoGeneric.csproj.GenerateResource.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\obj\Debug\DemoGeneric.csproj.CoreCompileInputs.cache
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\obj\Debug\DemoGeneric.exe
+C:\Users\elogrono\Documents\Github\C#\Inicio\DemoGeneric\DemoGeneric\obj\Debug\DemoGeneric.pdb
