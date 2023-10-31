@@ -9,5 +9,10 @@ namespace DemoGeneric
     internal class Employeer : Person
     {
         public double Salary { get; set; }
+
+        public string writeSalary()
+        {
+            return Name + " " + Age + " " + Salary;
+        }
     }
 }
