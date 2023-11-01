@@ -32,6 +32,15 @@ namespace poo
             {
                 Employeer employee = (Employeer)employeers[i];
                 Console.WriteLine($"Employee name: {employee.Name}");
+                // change name 
+                employee.Name = "Changed";
+                for (int j = 0; j < employeers.Count; j++)
+                {
+                    Employeer employeer = (Employeer)employeers[i];
+                    Console.WriteLine($"Employee name: {employeer.Name}");
+                    // change name 
+                    //employee.Name = "Changed";
+                }
             }
 
             Console.WriteLine();
