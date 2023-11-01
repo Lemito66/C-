@@ -107,7 +107,8 @@ namespace DemoFiles
         private void button4_Click(object sender, EventArgs e)
         {
             MyClass _myClass = deserialize(myClass);
-            MessageBox.Show(myClass.MyFirstProperty.ToString() + " " + myClass.MySecondProperty);
+            MessageBox.Show("Clase deserializada: ");
+            //MessageBox.Show(myClass.MyFirstProperty.ToString() + " " + myClass.MySecondProperty);
 
         }
     }
