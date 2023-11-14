@@ -5,9 +5,9 @@ namespace webAppCore.Controllers
 {
     public class ProductsController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "Products";
+            return View();
         }
         public string productoMora(int productCode, int creditLimit, string name)
         {
