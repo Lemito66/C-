@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace demoWebApp2
+namespace RepasoWebApp2
 {
     public partial class InsertProduct : System.Web.UI.Page
     {
@@ -22,11 +22,6 @@ namespace demoWebApp2
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            // Insertar datos 
-            // 1. Crear una instancia de la clase de acceso a datos
-            // 2. Llamar al método de inserción
-            // 3. Redireccionar a la página de productos
-
             try
             {
                 SqlConnection conn = new SqlConnection();
@@ -47,11 +42,6 @@ namespace demoWebApp2
 
                 Response.Write("ERROR AL AGREGAR REGISTRO !!!!!");
             }
-        }
-
-        protected System.Void Button1_Click(System.Object sender, System.EventArgs e)
-        {
-
         }
     }
 }

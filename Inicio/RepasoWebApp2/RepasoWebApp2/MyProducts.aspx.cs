@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace demoWebApp2
+namespace RepasoWebApp2
 {
     public partial class MyProducts : System.Web.UI.Page
     {
@@ -17,11 +17,6 @@ namespace demoWebApp2
         protected void Button1_Click(object sender, EventArgs e)
         {
             Response.Redirect("InsertProduct.aspx");
-        }
-
-        protected System.Void Button1_Click(System.Object sender, System.EventArgs e)
-        {
-
         }
     }
 }
