@@ -5,3 +5,12 @@
 
 <h1>Customer Emill</h1>
 
+<p>Welcome: @ViewData["name"]</p>
+
+<ul>
+    @for (int i = 0; i < (int)@ViewData["indicator"]!; i++)
+    {
+        <li>Item @i  @ViewData["name"]</li>
+    }
+</ul>
+
