@@ -1,5 +1,5 @@
 <h1>Paquetes Nuget</h1>
 
-- Add-Migration Initial
+- Add-Migration <NombreMigración>
 
 - Update-Database
