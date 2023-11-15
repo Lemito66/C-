@@ -27,6 +27,8 @@ namespace webCoreCustomer.Models
         [Required(ErrorMessage = "El email es requerido")]
         [RegularExpression(@"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$", 
                        ErrorMessage = "El email no es valido")]
+        [Display(Name = "Correo Electrónico", Prompt ="Ingrese su correo electrónico",
+            Description ="Correo electrónico de usuario")]
         public string Email { get; set; }
     }
 }
