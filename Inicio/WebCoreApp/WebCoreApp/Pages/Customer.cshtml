@@ -1,0 +1,40 @@
+﻿@page
+@model WebCoreApp.Pages.CustomerModel
+@{
+    ViewData["Title"] = "Customer";
+    var customerName = "Lemito66";
+
+}
+
+<br />
+@if (Request.Method == "POST")
+{
+    <h2>Texto enviado !!!!</h2>
+}
+else
+{
+    <center>
+        <h1>Bienvenido a Catalogo de Clientes</h1>
+        @DateTime.Now;
+        <h2>@customerName</h2>
+
+    </center>
+    <form method="post" action="">
+        <table>
+            <tr>
+                <td><label for="nameProduct">Nombre producto</label></td>
+                <td><input type="text" name="nameProduct" value="" /></td>
+            </tr>
+            <tr>
+                <td><label for="ExistenciasProduct">Existencias producto</label></td>
+                <td><input type="text" name="ExistenciasProduct" value="" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Enviar" class="submit" /></td>
+            </tr>
+        </table>
+
+    </form>
+
+}
