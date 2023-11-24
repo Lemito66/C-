@@ -34,7 +34,7 @@ namespace appHospital.Models
 
         [Required(ErrorMessage = "El contacto es requerido")]
         [StringLength(200, MinimumLength = 3, ErrorMessage = "El contacto debe tener entre 3 y 200 caracteres")]
-        [Display(Name = "Contacto", Prompt = "Ingrese su dirección de contacto o nombre de contacto",
+        [Display(Name = "Dirección de contacto o persona de contacto", Prompt = "Ingrese su dirección de contacto o nombre de contacto",
                                                        Description = "Contacto de usuario")]
         public string ContactAddressOrContactName { get; set; }
     }
