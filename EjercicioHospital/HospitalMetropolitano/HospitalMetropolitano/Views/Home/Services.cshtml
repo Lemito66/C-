@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Services";
+
+    // arreglo de servicios
+    var services = new List<string> { "Cirugía Baríatrica", "Cirugía Robótica", "Metromaternicad",
+        "Chequeos Médicos", "Apoyo Terapéutico", "Banco de sangre", "Emergencia", "Farmacia", "Metrolaser" };
+}
+
+<h1>Servicios</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre del Servicio</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < services.Count; i++)
+        {
+            <tr>
+                <th scope="row">@(i+1)</th>
+                <td>@services[i]</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
