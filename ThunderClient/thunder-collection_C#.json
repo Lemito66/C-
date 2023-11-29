@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "C#",
+    "dateExported": "2023-11-29T15:11:56.698Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "96d1ff72-52fa-4a8e-ad10-d137f451cc0d",
+            "colId": "f738ac15-39e6-4f62-b62a-e0aa96a5cc64",
+            "containerId": "",
+            "name": "get",
+            "url": "http://localhost:62468/api/myProducts/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-29T14:01:22.937Z",
+            "modified": "2023-11-29T14:01:36.852Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "27751fc5-6166-47f1-b3e6-118fc03ba6fc",
+            "colId": "f738ac15-39e6-4f62-b62a-e0aa96a5cc64",
+            "containerId": "",
+            "name": "post",
+            "url": "http://localhost:62468/api/myProducts/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-29T14:02:51.914Z",
+            "modified": "2023-11-29T14:22:14.944Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"Nombre\": \"Emill Nuevo\",\n    \"Precio\": 2000,\n    \"Existencias\": 5\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "15eb17f9-b6b8-43b4-a44e-b42883af710b",
+            "colId": "f738ac15-39e6-4f62-b62a-e0aa96a5cc64",
+            "containerId": "",
+            "name": "put",
+            "url": "http://localhost:62468/api/myProducts/24",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-29T14:11:55.962Z",
+            "modified": "2023-11-29T14:23:00.347Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"Nombre\": \"Emill Modificado otroo\",\n    \"Precio\": 2000,\n    \"Existencias\": 5,\n    \"id\":24\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f291875a-a13b-4c85-aa63-74dc783c4225",
+            "colId": "f738ac15-39e6-4f62-b62a-e0aa96a5cc64",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:62468/api/myProducts/18",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-11-29T14:19:58.737Z",
+            "modified": "2023-11-29T14:20:12.178Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7f9bc340-afd0-4253-b362-2f903fa528ed",
+            "colId": "f738ac15-39e6-4f62-b62a-e0aa96a5cc64",
+            "containerId": "",
+            "name": "get_by_id",
+            "url": "http://localhost:62468/api/myProducts/24",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-11-29T14:23:26.899Z",
+            "modified": "2023-11-29T14:23:39.293Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

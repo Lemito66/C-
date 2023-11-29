@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CustomersC#",
+    "dateExported": "2023-11-29T15:12:34.290Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "052696eb-60c6-42ff-a42f-538717754a09",
+            "colId": "a836e829-58da-4e81-bfc2-3819ef375214",
+            "containerId": "",
+            "name": "get",
+            "url": "http://localhost:62468/api/customers",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-29T14:53:21.082Z",
+            "modified": "2023-11-29T14:53:28.243Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "530f5bca-f5b7-488a-8f9a-5c12065bb3df",
+            "colId": "a836e829-58da-4e81-bfc2-3819ef375214",
+            "containerId": "",
+            "name": "post",
+            "url": "http://localhost:62468/api/customers",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-29T14:53:46.444Z",
+            "modified": "2023-11-29T15:00:22.208Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"Nombre\": \"Juan\",\n    \"Direccion\": \"Carcelen\",\n    \"Telefono\": \"0987654321\",\n    \"LimiteCredito\": 2000,\n    \"FechaRegistro\": \"2023-11-15T00:00:00\",\n    \"Categoria\": 1,\n    \"CorreoContacto\": \"lemito66@gmail.com\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c7e43f31-5d9d-4414-ad3f-ef0183bd0dbc",
+            "colId": "a836e829-58da-4e81-bfc2-3819ef375214",
+            "containerId": "",
+            "name": "put",
+            "url": "http://localhost:62468/api/customers/6",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-29T14:53:52.198Z",
+            "modified": "2023-11-29T15:01:24.212Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"Id\": 6,\n    \"Nombre\": \"Juan Perez Modificado\",\n    \"Direccion\": \"Carcelen\",\n    \"Telefono\": \"0987654321\",\n    \"LimiteCredito\": 2000.00,\n    \"FechaRegistro\": \"2023-11-15T00:00:00\",\n    \"Categoria\": 1,\n    \"CorreoContacto\": \"lemito66@gmail.com\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ed5441e4-9cbf-4908-87f3-3f585476f107",
+            "colId": "a836e829-58da-4e81-bfc2-3819ef375214",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:62468/api/customers/6",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-11-29T14:53:57.802Z",
+            "modified": "2023-11-29T15:02:04.715Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1f0d8a5b-9564-482a-9e6c-57b956a317bc",
+            "colId": "a836e829-58da-4e81-bfc2-3819ef375214",
+            "containerId": "",
+            "name": "get_by_id",
+            "url": "http://localhost:62468/api/customers/5",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-11-29T15:02:42.490Z",
+            "modified": "2023-11-29T15:02:52.604Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
