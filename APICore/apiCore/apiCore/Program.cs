@@ -1,6 +1,13 @@
+using apiCore.Context;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddTransient<ApplicationDbContext>(); // Esto es para que cuando se inyecte el servicio de tipo ApplicationDbContext, se cree una nueva instancia de la clase ApplicationDbContext y se le pase el parametro connectionString
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

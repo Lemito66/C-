@@ -9,6 +9,6 @@ namespace apiCore.Context
         {
             
         }
-        public DbSet<Customer> Customers { get; set; } // DbSet es una clase que representa una tabla de la base de datos, en este caso Customers es una tabla de la base de datos
+        public DbSet<CustomerEL> Customers { get; set; } // DbSet es una clase que representa una tabla de la base de datos, en este caso Customers es una tabla de la base de datos
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace apiCore.Models
 {
-    public class Customer
+    public class CustomerEL
     {
         public int Id { get; set; }
         public string Name { get; set; }
