@@ -1,13 +1,22 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using apiFinalVerdadero.Models;
 
 namespace apiFinalVerdadero
 {
-    public class ApplicationDbContext: DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+        public DbSet<ComentarioEL> ComentarioEL { get; set; }
+        protected readonly IConfiguration Configuration;
+
+        public ApplicationDbContext(IConfiguration configuration)
         {
+            Configuration = configuration;
         }
-        public DbSet<apiFinalVerdadero.Models.CustomerEL2> CustomerEL2 { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+        }
+        
     }
 }

@@ -2,7 +2,7 @@
 
 namespace apiFinalVerdadero.Models
 {
-    public class CustomerEL2
+    public class ComentarioEL
     {
         public int Id { get; set; }
         [Required]
