@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using apiFinalVerdadero.Models;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -6,13 +8,20 @@ namespace apiFinalVerdadero.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CustomerEL2Controller : ControllerBase
+    public class ComentarioELController : ControllerBase
     {
+        private readonly ApplicationDbContext dbContext;
+
+        public  ComentarioELController(ApplicationDbContext context)
+        {
+            dbContext = context;
+        }       
+
         // GET: api/<CustomerEL2Controller>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IEnumerable<ComentarioEL>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return await dbContext.ComentarioEL.ToListAsync();
         }
 
         // GET api/<CustomerEL2Controller>/5

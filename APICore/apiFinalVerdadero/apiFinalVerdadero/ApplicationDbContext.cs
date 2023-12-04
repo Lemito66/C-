@@ -8,10 +8,16 @@ namespace apiFinalVerdadero
         public DbSet<ComentarioEL> ComentarioEL { get; set; }
         protected readonly IConfiguration Configuration;
 
-        public ApplicationDbContext(IConfiguration configuration)
+        public ApplicationDbContext(IConfiguration configuration) 
         {
-            Configuration = configuration;
+            Configuration = configuration; 
         }
+
+        public ApplicationDbContext() { 
+
+        }
+
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
