@@ -26,15 +26,35 @@ namespace apiFinalVerdadero.Controllers
 
         // GET api/<CustomerEL2Controller>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<ComentarioEL>> Get(int id)
         {
-            return "value";
+
+            if (dbContext.ComentarioEL == null)
+            {
+                return NotFound();
+            }
+            var comentarioEl = await dbContext.ComentarioEL.FindAsync(id);
+
+            if (comentarioEl == null)
+            {
+                return NotFound();
+            }
+
+            return comentarioEl;
         }
 
         // POST api/<CustomerEL2Controller>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<ActionResult<ComentarioEL>> Post(ComentarioEL comentarioEl)
         {
+            if (dbContext.ComentarioEL == null)
+            {
+                return Problem("Entity set 'apiRepasoCustomersContext.CustomerEL'  is null.");
+            }
+            dbContext.ComentarioEL.Add(comentarioEl);
+            await dbContext.SaveChangesAsync();
+
+            return CreatedAtAction("GetCustomerEL", new { id = comentarioEl.Id }, comentarioEl);
         }
 
         // PUT api/<CustomerEL2Controller>/5
