@@ -42,6 +42,8 @@ namespace apiRepasoCustomers
           }
             var customerEL = await _context.CustomerEL.FindAsync(id);
 
+            //var customerEl = await _context.CustomerEL.FirstOrDefaultAsync(m => m.Id == id); // me aseguro que no sea null
+
             if (customerEL == null)
             {
                 return NotFound();

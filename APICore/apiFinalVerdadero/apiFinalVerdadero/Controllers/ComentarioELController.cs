@@ -21,6 +21,10 @@ namespace apiFinalVerdadero.Controllers
         [HttpGet]
         public async Task<IEnumerable<ComentarioEL>> Get()
         {
+            if (dbContext.ComentarioEL == null)
+            {
+                return (IEnumerable<ComentarioEL>)NotFound();
+            }
             return await dbContext.ComentarioEL.ToListAsync();
         }
 
@@ -47,26 +51,76 @@ namespace apiFinalVerdadero.Controllers
         [HttpPost]
         public async Task<ActionResult<ComentarioEL>> Post(ComentarioEL comentarioEl)
         {
+
+            // ActionResult es una clase que representa un resultado de acción HTTP que puede realizar un controlador.
+            // para utilizar los verbos HTTP GET, POST, PUT y DELETE, se debe utilizar ActionResult
             if (dbContext.ComentarioEL == null)
             {
                 return Problem("Entity set 'apiRepasoCustomersContext.CustomerEL'  is null.");
             }
-            dbContext.ComentarioEL.Add(comentarioEl);
-            await dbContext.SaveChangesAsync();
 
-            return CreatedAtAction("GetCustomerEL", new { id = comentarioEl.Id }, comentarioEl);
+            dbContext.Add(comentarioEl);
+            await dbContext.SaveChangesAsync();
+            return Ok();
+            //dbContext.ComentarioEL.Add(comentarioEl);
+            //await dbContext.SaveChangesAsync();
+
+            //return CreatedAtAction("GetCustomerEL", new { id = comentarioEl.Id }, comentarioEl);
         }
 
         // PUT api/<CustomerEL2Controller>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> Put(int id, ComentarioEL comentarioEl)
         {
+            if (id != comentarioEl.Id)
+            {
+                return BadRequest();
+            }
+
+            dbContext.Entry(comentarioEl).State = EntityState.Modified;
+
+            try
+            {
+                await dbContext.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ComentarioELExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
         }
 
         // DELETE api/<CustomerEL2Controller>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            if (dbContext.ComentarioEL == null)
+            {
+                return NotFound();
+            }
+            var comentarioEl = await dbContext.ComentarioEL.FindAsync(id);
+            if (comentarioEl == null)
+            {
+                return NotFound();
+            }
+
+            dbContext.ComentarioEL.Remove(comentarioEl);
+            await dbContext.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool ComentarioELExists(int id)
+        {
+            return (dbContext.ComentarioEL?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
